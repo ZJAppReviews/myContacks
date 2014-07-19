@@ -21,16 +21,35 @@
 }
 
 - (void)addImgButton:(NSString *)imgPath {
+    UIButton *imgButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    imgButton.center = CGPointMake(40, self.bounds.size.height*0.5);
+    imgButton.bounds = CGRectMake(0, 0, 44, 44);
+    //get image
+    UIImage *image = [UIImage imageNamed:imgPath];
+    [imgButton setBackgroundImage:image forState:UIControlStateNormal];
+    [imgButton addTarget:self action:@selector(imgClick) forControlEvents:UIControlEventTouchUpInside];
+    
+    
+    [self addSubview:imgButton];
+    
     
 }
-- (void)addText:(NSString *)textContent {
+- (void)addText {
     UILabel *lab = [[UILabel alloc] init];
-    lab.text = textContent;
-   
-   
-    lab.frame = CGRectMake(0, 0, 200, 40);
+    
+    lab.text = self.textContent;
+    //lab.backgroundColor = [UIColor grayColor];
     [self addSubview:lab];
-    NSLog(@"%f--%f", self.center.x, self.center.y);
+    [lab sizeToFit];
+    //lab.textAlignment = NSTextAlignmentCenter;
+    lab.backgroundColor = [UIColor clearColor];
+    lab.center = CGPointMake(self.bounds.size.width*0.5, self.bounds.size.height*0.5);
+    NSLog(@"%@", lab);
+}
+
+//Click
+- (void)imgClick {
+    NSLog(@"%@" , self.textContent);
 }
 
 /*

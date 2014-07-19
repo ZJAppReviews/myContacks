@@ -10,9 +10,13 @@
 
 @interface myContacksView : UIView
 
+@property (nonatomic, weak) NSString *textContent;
+
+
+
 - (id)initWithFrame:(CGRect)frame;
 
 
 - (void) addImgButton:(NSString *)imgPath;
-- (void) addText:(NSString *)textContent;
+- (void) addText;
 @end
