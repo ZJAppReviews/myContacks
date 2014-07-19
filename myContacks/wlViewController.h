@@ -10,7 +10,7 @@
 
 @interface wlViewController : UIViewController
 
-
+@property (nonatomic, weak) IBOutlet UIBarButtonItem *delItem;
 - (IBAction)addrow:(id)sender;
 - (IBAction)delrow:(id)sender;
 @end

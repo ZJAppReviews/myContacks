@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9C6C122197A055B00F30E3D /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6C119197A055B00F30E3D /* 0.png */; };
+		A9C6C123197A055B00F30E3D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6C11A197A055B00F30E3D /* 1.png */; };
+		A9C6C124197A055B00F30E3D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6C11B197A055B00F30E3D /* 2.png */; };
+		A9C6C125197A055B00F30E3D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6C11C197A055B00F30E3D /* 3.png */; };
+		A9C6C126197A055B00F30E3D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6C11D197A055B00F30E3D /* 4.png */; };
+		A9C6C127197A055B00F30E3D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6C11E197A055B00F30E3D /* 5.png */; };
+		A9C6C128197A055B00F30E3D /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6C11F197A055B00F30E3D /* 6.png */; };
+		A9C6C129197A055B00F30E3D /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6C120197A055B00F30E3D /* 7.png */; };
+		A9C6C12A197A055B00F30E3D /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C6C121197A055B00F30E3D /* 8.png */; };
+		A9C6C12D197A131500F30E3D /* myContacksView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C6C12C197A131500F30E3D /* myContacksView.m */; };
 		A9F1AF3E1977EDB1008E9406 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F1AF3D1977EDB1008E9406 /* Foundation.framework */; };
 		A9F1AF401977EDB1008E9406 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F1AF3F1977EDB1008E9406 /* CoreGraphics.framework */; };
 		A9F1AF421977EDB1008E9406 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9F1AF411977EDB1008E9406 /* UIKit.framework */; };
@@ -34,6 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A9C6C119197A055B00F30E3D /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		A9C6C11A197A055B00F30E3D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		A9C6C11B197A055B00F30E3D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		A9C6C11C197A055B00F30E3D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		A9C6C11D197A055B00F30E3D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		A9C6C11E197A055B00F30E3D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		A9C6C11F197A055B00F30E3D /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		A9C6C120197A055B00F30E3D /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		A9C6C121197A055B00F30E3D /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		A9C6C12B197A131500F30E3D /* myContacksView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myContacksView.h; sourceTree = "<group>"; };
+		A9C6C12C197A131500F30E3D /* myContacksView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myContacksView.m; sourceTree = "<group>"; };
 		A9F1AF3A1977EDB1008E9406 /* myContacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myContacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F1AF3D1977EDB1008E9406 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A9F1AF3F1977EDB1008E9406 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +140,8 @@
 				A9F1AF531977EDB1008E9406 /* wlViewController.m */,
 				A9F1AF551977EDB1008E9406 /* Images.xcassets */,
 				A9F1AF441977EDB1008E9406 /* Supporting Files */,
+				A9C6C12B197A131500F30E3D /* myContacksView.h */,
+				A9C6C12C197A131500F30E3D /* myContacksView.m */,
 			);
 			path = myContacks;
 			sourceTree = "<group>";
@@ -126,6 +149,15 @@
 		A9F1AF441977EDB1008E9406 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9C6C119197A055B00F30E3D /* 0.png */,
+				A9C6C11A197A055B00F30E3D /* 1.png */,
+				A9C6C11B197A055B00F30E3D /* 2.png */,
+				A9C6C11C197A055B00F30E3D /* 3.png */,
+				A9C6C11D197A055B00F30E3D /* 4.png */,
+				A9C6C11E197A055B00F30E3D /* 5.png */,
+				A9C6C11F197A055B00F30E3D /* 6.png */,
+				A9C6C120197A055B00F30E3D /* 7.png */,
+				A9C6C121197A055B00F30E3D /* 8.png */,
 				A9F1AF451977EDB1008E9406 /* myContacks-Info.plist */,
 				A9F1AF461977EDB1008E9406 /* InfoPlist.strings */,
 				A9F1AF491977EDB1008E9406 /* main.m */,
@@ -229,9 +261,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C6C12A197A055B00F30E3D /* 8.png in Resources */,
+				A9C6C129197A055B00F30E3D /* 7.png in Resources */,
+				A9C6C124197A055B00F30E3D /* 2.png in Resources */,
+				A9C6C122197A055B00F30E3D /* 0.png in Resources */,
 				A9F1AF561977EDB1008E9406 /* Images.xcassets in Resources */,
 				A9F1AF481977EDB1008E9406 /* InfoPlist.strings in Resources */,
+				A9C6C128197A055B00F30E3D /* 6.png in Resources */,
+				A9C6C126197A055B00F30E3D /* 4.png in Resources */,
 				A9F1AF511977EDB1008E9406 /* Main.storyboard in Resources */,
+				A9C6C127197A055B00F30E3D /* 5.png in Resources */,
+				A9C6C125197A055B00F30E3D /* 3.png in Resources */,
+				A9C6C123197A055B00F30E3D /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +293,7 @@
 			files = (
 				A9F1AF4A1977EDB1008E9406 /* main.m in Sources */,
 				A9F1AF4E1977EDB1008E9406 /* wlAppDelegate.m in Sources */,
+				A9C6C12D197A131500F30E3D /* myContacksView.m in Sources */,
 				A9F1AF541977EDB1008E9406 /* wlViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +499,7 @@
 				A9F1AF6E1977EDB1008E9406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9F1AF6F1977EDB1008E9406 /* Build configuration list for PBXNativeTarget "myContacksTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +508,7 @@
 				A9F1AF711977EDB1008E9406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
