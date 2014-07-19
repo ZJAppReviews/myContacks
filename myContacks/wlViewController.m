@@ -29,4 +29,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+- (IBAction)addrow:(id)sender {
+    NSLog(@"add");
+}
+- (IBAction)delrow:(id)sender {
+    NSLog(@"delete");
+}
+
 @end

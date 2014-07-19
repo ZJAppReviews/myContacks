@@ -10,4 +10,7 @@
 
 @interface wlViewController : UIViewController
 
+
+- (IBAction)addrow:(id)sender;
+- (IBAction)delrow:(id)sender;
 @end
