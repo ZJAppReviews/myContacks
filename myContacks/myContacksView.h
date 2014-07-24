@@ -14,9 +14,12 @@
 
 
 
-- (id)initWithFrame:(CGRect)frame;
+- (id)initWithFrame:(CGRect)frame andTextContent:(NSString *) text;
 
 
-- (void) addImgButton:(NSString *)imgPath;
+- (void) addImgButton;
 - (void) addText;
+
+- (void)delMyRow;
+
 @end
