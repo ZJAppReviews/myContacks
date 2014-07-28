@@ -11,6 +11,10 @@
 @interface wlViewController : UIViewController
 
 @property (nonatomic, weak) IBOutlet UIBarButtonItem *delItem;
+
+@property (nonatomic, weak) IBOutlet UIScrollView *myScrollView;
 - (IBAction)addrow:(id)sender;
 - (IBAction)delrow:(id)sender;
+
+
 @end

@@ -22,9 +22,8 @@
     }
     self.layer.opacity = 0.3;
     [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];
-    [UIView setAnimationDuration:0.3];
-    
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+    [UIView setAnimationDuration:0.4];
     self.frame = frame;
     self.layer.opacity = 1;
     

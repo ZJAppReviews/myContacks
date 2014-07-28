@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.myScrollView.contentSize = CGSizeMake(0, 0);
+    self.myScrollView.showsHorizontalScrollIndicator=NO;
+    self.myScrollView.showsVerticalScrollIndicator=NO;
 }
 
 - (void)didReceiveMemoryWarning
@@ -28,23 +31,29 @@
 
 - (IBAction)addrow:(id)sender {
     //计算出添加的一行的frame
-    CGFloat rowWidth = self.view.frame.size.width;
-    UIView *lastObj = [self.view.subviews lastObject];
+    CGFloat rowWidth = self.myScrollView.frame.size.width;
+    UIView *lastObj = [self.myScrollView.subviews lastObject];
     CGFloat rowY = lastObj.frame.origin.y + lastObj.frame.size.height + 1;
+    CGFloat scrollH = rowY + kRowHeight;
+    self.myScrollView.contentSize = CGSizeMake(320, scrollH);
+    
     CGRect frame = CGRectMake(0, rowY, rowWidth, kRowHeight);
     //开始添加
     myContacksView *newRow = [[myContacksView alloc] initWithFrame:frame andTextContent:@"123"];
-    [self.view addSubview:newRow];
-    
+    //[self.myScrollView addSubview:newRow];
+    [self.myScrollView addSubview:newRow];
+    //[self.view addSubview:newRow];
     //config trash button useable
     self.delItem.enabled = YES;
-    
+    NSLog(@"%@", self.myScrollView.subviews);
     
 }
 - (IBAction)delrow:(id)sender {
-    myContacksView *lastObj = [self.view.subviews lastObject];
+    myContacksView *lastObj = [self.myScrollView.subviews lastObject];
     [lastObj delMyRow];
-    self.delItem.enabled = self.view.subviews.count > 2;
+    CGFloat rowY = lastObj.frame.origin.y - kRowHeight - 1;
+    self.myScrollView.contentSize = CGSizeMake(320, rowY);
+    self.delItem.enabled = self.myScrollView.subviews.count > 1;
 }
 
 
