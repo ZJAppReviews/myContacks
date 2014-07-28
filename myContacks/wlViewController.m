@@ -51,7 +51,7 @@
 - (IBAction)delrow:(id)sender {
     myContacksView *lastObj = [self.myScrollView.subviews lastObject];
     [lastObj delMyRow];
-    CGFloat rowY = lastObj.frame.origin.y - kRowHeight - 1;
+    CGFloat rowY = lastObj.frame.origin.y - 1;
     self.myScrollView.contentSize = CGSizeMake(320, rowY);
     self.delItem.enabled = self.myScrollView.subviews.count > 1;
 }
