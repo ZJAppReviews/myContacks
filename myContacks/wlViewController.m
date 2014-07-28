@@ -45,7 +45,6 @@
     //[self.view addSubview:newRow];
     //config trash button useable
     self.delItem.enabled = YES;
-    NSLog(@"%@", self.myScrollView.subviews);
     
 }
 - (IBAction)delrow:(id)sender {
