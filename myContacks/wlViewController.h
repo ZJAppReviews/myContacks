@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface wlViewController : UIViewController
+@interface wlViewController : UIViewController <UIScrollViewDelegate, UIAlertViewDelegate>
 
 @property (nonatomic, weak) IBOutlet UIBarButtonItem *delItem;
 

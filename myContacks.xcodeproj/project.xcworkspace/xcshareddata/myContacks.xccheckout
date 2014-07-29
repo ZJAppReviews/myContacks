@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D9460F55-A2DF-475A-803F-DAA243222A61</string>
+	<key>IDESourceControlProjectName</key>
+	<string>myContacks</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>696F92D4-AAA9-4DCC-8958-F3C0DCBF24BA</key>
+		<string>https://github.com/wanglv/myContacks.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>myContacks.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>696F92D4-AAA9-4DCC-8958-F3C0DCBF24BA</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/wanglv/myContacks.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>696F92D4-AAA9-4DCC-8958-F3C0DCBF24BA</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>696F92D4-AAA9-4DCC-8958-F3C0DCBF24BA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>myContacks</string>
+		</dict>
+	</array>
+</dict>
+</plist>
